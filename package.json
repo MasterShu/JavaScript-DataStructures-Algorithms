@@ -1,0 +1,25 @@
+{
+  "name": "algorithm",
+  "description": "```bash ├── quick sort 快速排序 ├── config  项目构建配置目录 (不需要修改) ├── server  服务端源码 │   ├── model.js  模型类文件 │   ├── server.js 服务端代码 │   ├── user.js   服务端用户代码 ```",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "algorithm"
+  ],
+  "author": "MasterShu",
+  "devDependencies": {
+    "eslint": "^4.17.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "seedrandom": "^2.4.3"
+  }
+}
