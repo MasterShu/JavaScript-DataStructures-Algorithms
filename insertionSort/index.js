@@ -23,6 +23,12 @@ const insertionSortPlus = (arr, n) => {
   return newArr
 }
 
+/**
+ * 插入排序
+ * @param {array} arr 需要排序的数组
+ * @param {number} l 左侧
+ * @param {number} r 右侧
+ */
 const insertionSortRange = (arr, l, r) => {
   for (let i = l + 1; i <= r; i++) {
     const e = arr[i]

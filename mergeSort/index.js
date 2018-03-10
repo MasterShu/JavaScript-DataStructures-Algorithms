@@ -22,7 +22,7 @@ const __mergeSort = (arr, l, r) => {
   // if (l >= r) {
   //   return
   // }
-  if ((r - l) <= 200000) {
+  if ((r - l) <= 100) {
     insertionSortRange(arr, l, r)
     return
   }

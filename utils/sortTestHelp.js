@@ -1,17 +1,17 @@
-const seedrandom = require('seedrandom');
+const seedrandom = require('seedrandom')
 
 // 根据随机种子随机
 const randArray = (min, max, n) => {
-    if (min >= max) {
-        throw 'Error'
-    }
-    // 随机种子
-    const rng = seedrandom(Date.now())
-    const arr = []
-    for (let i = 0; i < n; i++) {
-        arr[i] = Math.floor(rng() * (max - min + 1) + min);
-    }
-    return arr
+  if (min >= max) {
+    throw 'Error' // eslint-disable-line
+  }
+  // 随机种子
+  const rng = seedrandom(Date.now())
+  const arr = []
+  for (let i = 0; i < n; i++) {
+    arr[i] = Math.floor(rng() * (max - min + 1) + min)
+  }
+  return arr
 }
 const randNearlyArr = (n, numOfTimes) => {
   const arr = []
@@ -34,15 +34,16 @@ const testSort = (sortName, sort, arr, n) => {
   const newArr = sort(arr, n)
   const endTime = getTime()
   if (!isSorted(newArr, n)) {
-    throw 'Error'
+    throw 'Error' // eslint-disable-line
   }
-  console.log(sortName, 'use time ', endTime-startTime, ' sort ', n)
+  console.log(sortName, 'use time ', endTime - startTime, ' sort ', n)
 }
 
 // 验证排序是否成功
 const isSorted = (arr, n) => {
   for (let i = 0; i < n; i++) {
     if (arr[i] > arr[i + 1]) {
+      console.error(`is ${i} value ${arr[i]} greater is ${i + 1} value ${arr[i + 1]}`)
       return false
     }
   }
