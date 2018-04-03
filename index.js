@@ -3,7 +3,8 @@ const quick = require('./quickSort/index')
 const insertion = require('./insertionSort/index')
 const merge = require('./mergeSort/index')
 const heap = require('./heap')
-const heapSort = require('./heapSort/')
+const heapSort = require('./heapSort')
+const bubbleSort = require('./bubbleSort')
 
 module.exports = {
   ...selection,
@@ -11,5 +12,6 @@ module.exports = {
   ...insertion,
   ...merge,
   ...heap,
-  ...heapSort
+  ...heapSort,
+  ...bubbleSort
 }

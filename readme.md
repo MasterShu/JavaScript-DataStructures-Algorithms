@@ -1,13 +1,30 @@
 # 算法
 
 ```bash
-├── selection sort 选择排序
+├── bubble sort 冒泡排序
+├── heap 堆结构
+├── heap sort 堆排序
 ├── insertion sort 插入排序
 ├── merge sort 归并排序
-├── merge sort 归并排序
-│   ├── model.js  模型类文件
-│   ├── server.js 服务端代码
-│   ├── user.js   服务端用户代码
+├── quick sort 快速排序排序
+├── selection sort 选择排序
+├── utils 工具
+│   ├── index.js  模型类文件
+│   ├── sortTestHelp.js 测试排序
+```
+
+## bubble sort
+
+> 冒泡排序
+冒泡排序总的平均时间复杂度为 
+
+```math
+O(N^2)
+```
+
+但是在有序的情况下, 就可以达到 
+```math
+O(N)
 ```
 
 ## selection sort
