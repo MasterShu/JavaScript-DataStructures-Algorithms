@@ -65,7 +65,7 @@ const __quickSort3Ways = (arr, l, r) => {
 
 /**
  * 对 arr[l...r] 部分进行 partition 操作
- * @param {Array} arr 需要排序的数组
+ * @param {Array<Number>} arr 需要排序的数组
  * @param {Number} l 左边
  * @param {Number} r 右边
  * @return {Number} 返回 p, 使得 arr[l...p - 1] < arr[p]; arr[p+1...r] > arr[p]

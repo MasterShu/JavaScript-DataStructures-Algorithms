@@ -1,0 +1,10 @@
+= 数据结构与算法
+Master Shu <maste2shu@foxmail.com>
+:doctype: book
+:toc:
+:icons:
+:numbered:
+
+include::complexity.adoc[]
+include::arrays.adoc[]
+include::linked_list.adoc[]

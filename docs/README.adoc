@@ -1,0 +1,8 @@
+= DATA STRUCTURES AND ALGORITHMS
+Master Shu <maste2shu@foxmail.com>
+:doctype: book
+:toc:
+:icons:
+:numbered:
+
+
