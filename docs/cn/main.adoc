@@ -8,3 +8,6 @@ Master Shu <maste2shu@foxmail.com>
 include::complexity.adoc[]
 include::arrays.adoc[]
 include::linked_list.adoc[]
+include::stack.adoc[]
+include::queues.adoc[]
+include::recursion.adoc[]
