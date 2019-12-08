@@ -1,4 +1,4 @@
-const { insertionSortRange } = require('../insertionSort/index')
+const { insertionSortRange } = require('../insertionSort')
 
 // 快速排序
 const quickSort = (arr, n) => {

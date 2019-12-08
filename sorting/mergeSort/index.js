@@ -1,4 +1,4 @@
-const { insertionSortRange } = require('../insertionSort/index')
+import { insertionSortRange } from '../insertionSort'
 
 const mergeSort = (arr, n) => {
   const [...newArr] = arr
@@ -57,7 +57,7 @@ const __merge = (arr, l, mid, r) => {
   }
 }
 
-module.exports = {
+export default {
   mergeSort,
   mergeSortBU
 }

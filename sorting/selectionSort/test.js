@@ -1,5 +1,5 @@
 import test from 'ava'
-import { randArray } from '../utils';
+import { randArray } from '../../utils';
 
 test('Test selection sort', t => {
   let testArr = randArray(1, 10000, 1000)
