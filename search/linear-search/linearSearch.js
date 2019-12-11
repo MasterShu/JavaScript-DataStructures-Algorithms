@@ -2,6 +2,7 @@ import { isEqual } from '../../utils'
 
 /**
  * Linear search implementation.
+ *
  * @param {array} array
  * @param {*} seekingItem
  * @returns {number}
