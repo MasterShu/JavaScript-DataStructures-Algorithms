@@ -1,2 +1,7 @@
-module.exports = require('./sortTestHelp')
-module.exports = require('./searchUtils')
+const utils = require('./searchUtils')
+const help = require('./sortTestHelp')
+
+module.exports = {
+  ...utils,
+  ...help
+}

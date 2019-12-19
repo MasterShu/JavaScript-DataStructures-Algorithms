@@ -57,7 +57,7 @@ const __merge = (arr, l, mid, r) => {
   }
 }
 
-export default {
+module.exports = {
   mergeSort,
   mergeSortBU
 }

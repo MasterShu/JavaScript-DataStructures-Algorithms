@@ -1,7 +1,13 @@
 const seedrandom = require('seedrandom')
 
-// 根据随机种子随机
-const randArray = (min, max, n) => {
+/**
+ * Generator a random array by seed
+ * @param {number} min
+ * @param {number} max
+ * @param {number} n
+ * @returns {[]}
+ */
+function randArray(min, max, n) {
   if (min >= max) {
     throw 'Error' // eslint-disable-line
   }
@@ -13,6 +19,7 @@ const randArray = (min, max, n) => {
   }
   return arr
 }
+
 const randNearlyArr = (n, numOfTimes) => {
   const arr = []
   for (let i = 0; i < n; i++) {
