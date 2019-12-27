@@ -1,5 +1,8 @@
 class Stack {
   constructor() {
+    /**
+     * @type {*[]}
+     */
     this.data = []
     this.count = 0
   }
