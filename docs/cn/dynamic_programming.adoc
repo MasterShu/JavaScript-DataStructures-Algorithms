@@ -1,0 +1,3 @@
+[dynamic_programming]
+== 动态规划
+动态规划多用来解决复杂问题，
